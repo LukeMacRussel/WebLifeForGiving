@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Log In Page</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="LogIn.css">
+</head>
+<body id="base" style="background-color: rgb(160, 215, 242);">
+
+<header class= "center, header">
+    <nav>
+        <img id="logo" src="logo.png" height="100" alt="logo"></img>
+    </nav>
+</header>
+
+<div class= "center">
+    <h3 class="teks">Log In ke Akun Anda</h1>
+    
+    <form action="SignUp.php" method="post">
+<label for= "Email"></label>
+<input list="email" email="Email" id="Email" placeholder="   Email">
+
+<br></br>
+<label for= "Password"></label>
+<input type="password" list="password" password="Password" id="Password" placeholder="   Password">
+
+<br></br>
+<input type="submit" class="button" value="Sign Up">
+</form>
+
+    <p id="teks">Belum punya Akun?</p>
+    <a class="link" href="http://127.0.0.1:5500/Sign%20Up%20Page/SignUp.html" target="_blank">Sign Up</a>
+    </div>
+
+
+<hr class="horizontal-line, footer">
+<footer class="collumn">
+    <pid="teksfooter" style="color: white;"><b>Life of Giving</b></p>
+    <p id="copyright" class="teks">©2021</p>
+</footer>
+</body>
+</html>

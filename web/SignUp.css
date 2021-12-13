@@ -1,0 +1,56 @@
+#teks{
+	text-align: center;
+}
+
+.center{
+    padding: 70px 0;
+ text-align: center;
+}
+
+header{
+    height: 100px;
+  width: max-width ;
+  text-align: center;
+  background-color: white;
+}
+
+.button {
+    background-color: #589FD3; 
+    border: none;
+    color: white;
+    padding: 8px 145px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+input {
+    text-align: left;
+    height: 30px;
+    width:500px;
+    border: 0cm;
+}
+
+#horizontal-line {
+  border-width: 1px;
+  color: black;
+}
+
+#copyright{
+  writing-mode: horizontal-tb;
+  color: black;
+}
+
+.collumn {
+  text-align: center;
+  position: relative;
+  margin-top: 70px;
+  column-count: 4;
+  column-gap: 40px;
+  column-rule-style: hidden;
+}
+
+footer {
+  position: relative;
+}

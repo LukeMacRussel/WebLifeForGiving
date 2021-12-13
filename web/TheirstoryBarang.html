@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="TheirstoryBarang.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">    
+
+</head>
+<body id="base" style="background-color: #f1f1f1;">
+
+<div class = container>
+    <div class = "head">
+        <svg id = "home-button" xmlns="http://www.w3.org/2000/svg" width="4%" height="4%" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
+            <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5z"/>
+        </svg>
+        <nav>
+            <ul>
+                <li><a href="#home">Login</a></li>
+                <li><a href="#news">Sign Up</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class = "row">
+        <h3>Terendam banjir, warga perumahan Pak Yanto kehilangan bahan sandang</h3>
+        <div class = "col1">
+            <div class = "card-left">
+                <img id="pic-left" src="837278_720.jpg" height="300" alt="BANJIR"></img>
+            </div>
+        </div>
+        <p></p>
+        <p>Berdasarkan laporan Badan Penanggulangan Bencana Daerah (BPBD), banjir di Banding terjadi mulai pukul 19.55 tadi.</p>
+        <p></p>
+        <p>Kejadian ini mengakibatkan ketinggian air pada saat banjir berkisar antara 30-70 sentimeter.</p>
+        <p></p>
+        <p>Adapun lokasi terdampak yakni Desa Manggisan di Kecamatan Tanggul, Desa Pondok Joyo, Desa Pondok Dalem di Kecamatan Cicendo, Desa Kramat Sukoharjo di Kecamatan Tanggul, dan Desa Gelang di Kecamatan Sumberbaru.</p>
+        <p></p>
+        <p>Tercatat kerugian material atas dampak kejadian ini meliputi 116 unit rumah, 1 unit musholla, 1 unit jembatan, dan 1 gedung sekolah menengah pertama.</p>
+        <p></p>
+        <p>BPBD Kabupaten Jember bersama tim gabungan dilaporkan telah menuju ke lokasi kejadian guna melakukan pendataan dan evakuasi korban terdampak. Distribusi logistik bagi para pengungsi dilakukan di Balai Desa Pondok Joyo.</p>
+        <p></p>
+        <p>Penguatan unsur tanah juga diperlukan dengan melakukan penanaman pohon terlebih saat terjadinya hujan karena akan memicu pergerakan tanah yang dapat mengakibatkan longsor.</p>
+        <p></p>
+        <div class = "col2">
+            <div class = "card-right">
+
+            </div>
+        </div> 
+    </div>
+
+    <div class = "progress">
+        <div class = "progress-fill"></div>
+        <span class = "progress-text">0%</span>
+    </div>
+
+    <div class = "btn">
+        <button class="donasi"><a href="Donasi.html">Donasi Sekarang!</button>
+        <br>
+        <button class="donasi">Bagikan</button>
+    </div>
+
+    <div class = "donatur">
+        <h5>Donatur Sebelumnya:</h5>
+
+        <button class ="donasi">Beri saya informasi mengenai cerita ini</button>
+    </div>
+    <div class = "others">
+        <button class="lainnya">Cerita lainnya</button>
+    </div>
+    <div class = "social">
+        <ul>
+            <li><a href = "#"><i class = "fa fa-facebook-f"></i></a></li>
+            <li><a href = "#"><i class = "fa fa-instagram"></i></a></li>
+        </ul>
+    </div>
+    <br>
+    <div class = "kembali">
+        <p><a href="Kembali" id="kembali">Kembali</a></p>
+    </div>
+
+    <div class="bottom">
+        <p class="copyright" style="text-align: center;">©2021</p>
+        <p><a href="Syarat_Ketentuan" id="syarat">Syarat dan Ketentuan</a></p>
+    </div>
+</div>
+
+<script>
+    function updateProgressBar(progressBar, value){
+        value = Math.round(value);
+        progressBar.querySelector(".progress-fill").style.width = `${value}%`;
+        progressBar.querySelector(".progress-text").textContent = `${value}%`;
+    }
+</script>
+</body>
+</html>

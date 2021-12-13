@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    outline: none;
+}
+.container{
+  width:100%;
+  height: 100vh;
+  padding-left: 8%;
+  padding-right: 8%;
+  box-sizing: border-box;
+}
+h3{
+	text-align: center;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  border: 12px;
+}
+.center{
+  font-size: 20px;
+  padding: 70px 0;
+  text-align: center;
+}
+header{
+  height: 130px;
+  width: max-width;
+  background-color:rgb(160, 215, 242);
+}
+.kembali a{
+  color: black;
+  margin-left: 50px;
+  font-style: italic;
+}
+p{
+  font-size: 14px;
+  font-family: 'Lato', sans-serif;
+  text-align: justify;
+}
+.bottom a{
+  text-align: center;
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 40px;
+  color: black;
+  background-color: #8acff0;
+  align-self: center;
+}
+.bottom {
+  position: relative;
+  display: block;
+  margin-top: 50px;
+  font-style: italic;
+  text-align: center;
+}
+@media only screen and (max-width:700px){
+  .kembali a{
+    font-size: 12px;
+  }
+  .center{
+    font-size: 14px;
+  }
+  .bottom a{
+    font-size: 10px;
+  }
+  .bottom p{
+    font-size: 11px;
+  }
+}
+@media only screen and (min-width:701px){
+  .kembali a{
+    font-size: 14px;
+  }
+  .center{
+    font-size: 15px;
+  }
+  .bottom a{
+    font-size: 11px;
+  }
+  .bottom p{
+    font-size: 12px;
+  }
+}
+@media only screen and (min-width:1400px){
+  .kembali a{
+    font-size: 14px;
+  }
+  .center{
+    font-size: 20px;
+  }
+  .bottom a{
+    font-size: 12px;
+  }
+  .bottom p{
+    font-size: 12px;
+  }
+}
